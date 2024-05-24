@@ -1,107 +1,92 @@
 # 프로그래밍 기본 용어
 
 <details>
-<summary>프로그래밍 언어</summary>
+<summary>프로그래밍 언어란?</summary>
 
-**프로그래밍 언어:**  
 프로그래밍 언어는 소프트웨어나 웹 애플리케이션을 개발하기 위해 사용되는 문법과 규칙의 집합입니다. 예를 들어, Python, Java, JavaScript 등이 있습니다. 각 언어는 고유의 문법과 특성을 가지고 있으며, 이를 통해 개발자는 컴퓨터에게 특정 작업을 수행하도록 명령할 수 있습니다. 예를 들어, Python을 사용하여 데이터 분석을 수행하거나, Java를 사용하여 대규모 엔터프라이즈 애플리케이션을 개발할 수 있습니다.
 </details>
 
 <details>
-<summary>인터프리터 (Interpreter)</summary>
+<summary>인터프리터 (Interpreter)란?</summary>
 
-**인터프리터:**  
 인터프리터는 소스 코드를 한 줄씩 읽어 해석하고 실행하는 프로그램입니다. 예를 들어,Javascript, Python은 인터프리터 언어입니다. 코드가 작성되고 나서 바로 실행할 수 있어, 빠르게 결과를 확인하고 디버깅할 수 있습니다. 이는 개발 과정에서 매우 유용하지만, 한 줄씩 해석하기 때문에 실행 속도가 컴파일러 언어에 비해 느릴 수 있습니다.
 </details>
 
 <details>
-<summary>컴파일러 (Compiler)</summary>
+<summary>컴파일러 (Compiler)란?</summary>
 
-**컴파일러:**  
 컴파일러는 소스 코드를 한꺼번에 기계어 또는 바이트코드로 변환하여 실행 파일을 생성하는 프로그램입니다. 예를 들어, C++과 같은 언어는 컴파일러를 사용합니다. 소스 코드를 컴파일하여 생성된 실행 파일은 빠르게 실행될 수 있지만, 코드 수정 후에는 다시 컴파일 과정을 거쳐야 합니다. 이는 처음에는 시간이 더 걸리지만, 실행 속도에서는 큰 이점을 제공합니다.
 </details>
 
 <details>
-<summary>런타임 환경</summary>
+<summary>런타임 환경?</summary>
 
-**런타임 환경:**  
 런타임 환경은 프로그램이 실행되는 동안 필요한 시스템 및 소프트웨어 환경을 의미합니다. 예를 들어, Java 프로그램은 JVM(Java Virtual Machine)이라는 런타임 환경에서 실행됩니다. 런타임 환경은 프로그램이 원활하게 실행되기 위해 필요한 모든 라이브러리, 메모리, CPU 등의 자원을 포함합니다.
 </details>
 
 <details>
-<summary>미들웨어 (Middleware)</summary>
+<summary>미들웨어 (Middleware)란?</summary>
 
-**미들웨어:**  
 미들웨어는 애플리케이션과 운영 체제, 서버와 클라이언트 사이에서 중간 역할을 하는 소프트웨어입니다. 예를 들어, 데이터베이스 연결을 관리하는 JDBC, 웹 서버 역할을 하는 Apache Tomcat 등이 있습니다. 미들웨어는 다양한 시스템 간의 통신을 돕고, 데이터 관리 및 애플리케이션 서비스 제공을 용이하게 합니다. 예를 들어, 웹 애플리케이션이 데이터베이스에 접근할 때 미들웨어를 통해 안전하고 효율적으로 데이터를 주고받을 수 있습니다.
 </details>
 
 <details>
-<summary>서버 사이드 (Server-side)</summary>
+<summary>서버 사이드 (Server-side)란?</summary>
 
-**서버 사이드:**  
 서버 사이드는 서버에서 실행되는 코드 또는 작업을 의미합니다. 예를 들어, 사용자가 웹 페이지에서 데이터를 입력하면, 서버 사이드 코드가 이 데이터를 처리하고, 데이터베이스에 저장하거나 다른 작업을 수행합니다. 이는 보안과 성능 측면에서 중요합니다. 예를 들어, 사용자의 로그인 정보 검증, 데이터베이스 쿼리 처리 등이 서버 사이드에서 이루어집니다.
 </details>
 
 <details>
-<summary>JAVA</summary>
+<summary>JAVA란?</summary>
 
-**JAVA:**  
 Java는 객체 지향 프로그래밍 언어로, 대규모 애플리케이션 개발에 주로 사용됩니다. 플랫폼 독립적인 언어로, 한 번 작성된 코드는 어디서든 실행할 수 있습니다. 예를 들어, Java를 사용하여 은행 시스템이나 대규모 전자 상거래 사이트와 같은 복잡한 애플리케이션을 개발할 수 있습니다. Java는 강력한 라이브러리와 프레임워크를 제공하며, 안정성과 보안성이 높아 기업 환경에서 많이 사용됩니다.
 </details>
 
 <details>
-<summary>HTML</summary>
+<summary>HTML란?</summary>
 
-**HTML:**  
 HTML(HyperText Markup Language)은 웹 페이지의 구조와 내용을 정의하는 마크업 언어입니다. 예를 들어, HTML 태그를 사용하여 텍스트, 이미지, 링크 등 다양한 요소를 웹 페이지에 배치합니다. HTML은 웹 페이지의 기본 구조를 잡는 역할을 하며, 웹 브라우저가 이를 해석하여 화면에 보여줍니다.
 </details>
 
 <details>
-<summary>CSS</summary>
+<summary>CSS란?</summary>
 
-**CSS:**  
 CSS(Cascading Style Sheets)는 웹 페이지의 외관을 정의하는 스타일시트 언어입니다. HTML과 함께 사용되어, 웹 페이지의 레이아웃, 색상, 폰트 등을 설정하여 시각적으로 아름다운 페이지를 만듭니다. 예를 들어, CSS를 사용하여 웹 페이지의 배경 색상을 변경하거나, 텍스트의 크기와 색상을 조정할 수 있습니다.
 </details>
 
 <details>
-<summary>Javascript</summary>
+<summary>Javascript란?</summary>
 
-**Javascript:**  
 Javascript는 웹 페이지의 동적 기능을 구현하는 스크립트 언어입니다. HTML과 CSS와 함께 사용되어, 사용자와 상호작용하는 웹 페이지를 만듭니다. 예를 들어, 버튼 클릭 시 이벤트 처리, 폼 검증, 애니메이션 등을 구현할 수 있습니다. 예를 들어, 쇼핑몰 사이트에서 장바구니에 물건을 추가할 때 동적으로 업데이트하는 기능을 구현할 수 있습니다.
 </details>
 
 <details>
-<summary>Python</summary>
+<summary>Python란?</summary>
 
-**Python:**  
 Python은 고수준 프로그래밍 언어로, 간결하고 읽기 쉬운 문법을 갖추고 있습니다. 웹 개발, 데이터 분석, 인공지능, 과학 계산 등 다양한 분야에서 사용됩니다. 예를 들어, Django 프레임워크를 사용하여 웹 애플리케이션을 개발하거나, Pandas 라이브러리를 사용하여 데이터 분석을 수행할 수 있습니다. Python은 강력한 라이브러리와 커뮤니티 지원으로 인해 매우 인기가 있습니다.
 </details>
 
 <details>
-<summary>SQL</summary>
+<summary>SQL란?</summary>
 
-**SQL:**  
 SQL(Structured Query Language)은 데이터베이스의 데이터를 관리하고 조작하기 위한 쿼리 언어입니다. 데이터베이스에서 데이터를 검색, 삽입, 업데이트, 삭제하는 등의 작업을 수행할 수 있습니다. 예를 들어, 고객 관리 시스템에서 고객 정보를 조회하거나, 새로운 고객 정보를 데이터베이스에 추가할 때 SQL을 사용합니다.
 </details>
 
 <details>
-<summary>JSP</summary>
+<summary>JSP란?</summary>
 
-**JSP:**  
 JSP(JavaServer Pages)는 자바 기반 템플릿 엔진으로, HTML 내에 자바 코드를 삽입하여 동적 웹 페이지를 생성합니다. 예를 들어, 사용자가 입력한 데이터를 처리하여 결과를 동적으로 생성하는 웹 페이지를 만들 수 있습니다. 주로 서버 사이드에서 실행되며, 서블릿과 함께 사용됩니다.
 </details>
 
 <details>
-<summary>Thymeleaf</summary>
+<summary>Thymeleaf?</summary>
 
-**Thymeleaf:**  
 Thymeleaf는 자바 기반 템플릿 엔진으로, HTML 템플릿을 사용하여 동적 웹 페이지를 생성합니다. 주로 스프링 프레임워크와 함께 사용되며, 자연스러운 HTML 형태로 템플릿을 작성할 수 있어 직관적입니다. 예를 들어, HTML 문서 안에 변수를 삽입하여 서버에서 동적으로 데이터를 채울 수 있습니다.
 </details>
 
 <details>
-<summary>Spring</summary>
+<summary>Spring?</summary>
 
-**Spring:**  
 Spring은 자바 플랫폼을 위한 애플리케이션 프레임워크로, 자바 애플리케이션 개발을 단순화하고, 다양한 엔터프라이즈 애플리케이션 기능을 제공합니다. DI(Dependency Injection), AOP(Aspect-Oriented Programming) 등의 기능을 통해 개발 생산성을 높입니다. 예를 들어, 대규모 웹 애플리케이션에서 의존성을 관리하고, 횡단 관심사를 분리하여 코드를 깔끔하게 유지할 수 있습니다.
 </details>
 
@@ -120,36 +105,31 @@ Flask는 파이썬을 위한 마이크로 웹 프레임워크로, 간단하고 �
 </details>
 
 <details>
-<summary>MyBatis</summary>
+<summary>MyBatis ?</summary>
 
-**MyBatis:**  
 MyBatis는 자바 애플리케이션에서 데이터베이스와 상호작용하기 위한 퍼시스턴스 프레임워크입니다. SQL 쿼리를 XML 파일이나 애노테이션으로 관리하며, 복잡한 매핑을 지원합니다. 예를 들어, 데이터베이스에서 복잡한 쿼리를 작성하고 이를 자바 객체와 매핑하여 사용할 수 있습니다.
 </details>
 
 <details>
-<summary>Maven</summary>
+<summary>Maven?</summary>
 
-**Maven:**  
 Apache Maven은 자바 프로젝트 관리 및 빌드 자동화 도구입니다. 프로젝트의 빌드, 의존성 관리, 배포 등을 자동화하여 개발 효율성을 높입니다. 예를 들어, 프로젝트의 라이브러리 의존성을 관리하고, 빌드 과정을 자동화하여 일관된 빌드 환경을 제공합니다.
 </details>
 
 <details>
-<summary>SVN</summary>
+<summary>SVN?</summary>
 
-**SVN:**  
 SVN(Subversion)은 소스 코드 버전 관리를 위한 도구로, 개발자들이 코드 변경 사항을 추적하고 협업할 수 있게 합니다. 코드의 히스토리를 관리하며, 이전 버전으로의 롤백이 가능합니다. 예를 들어, 여러 개발자가 동시에 작업할 때 충돌을 관리하고, 변경 내역을 추적하여 협업을 원활하게 합니다.
 </details>
 
 <details>
-<summary>Jenkins</summary>
+<summary>Jenkins?</summary>
 
-**Jenkins:**  
 Jenkins는 CI/CD(Continuous Integration/Continuous Deployment) 도구로, 자동화된 빌드, 테스트, 배포를 지원하여 소프트웨어 개발의 효율성을 높입니다. 예를 들어, 코드가 변경될 때마다 자동으로 빌드하고 테스트하여, 버그를 조기에 발견하고 배포할 수 있습니다.
 </details>
 
 <details>
-<summary>Node.js</summary>
+<summary>Node.js?</summary>
 
-**Node.js:**  
 Node.js는 자바스크립트 런타임 환경으로, 서버 사이드 애플리케이션 개발을 지원합니다. 비동기 이벤트 기반 아키텍처를 통해 높은 성능과 확장성을 제공합니다. 예를 들어, 실시간 채팅 애플리케이션이나 높은 트래픽을 처리하는 서버를 개발할 때 사용됩니다. Node.js를 사용하면 자바스크립트를 서버에서도 사용할 수 있습니다.
 </details>
